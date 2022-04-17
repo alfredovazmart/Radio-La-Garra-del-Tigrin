@@ -4,16 +4,15 @@
 const Alexa = require('ask-sdk-core');
 
 const STREAMS = [
-  {
-    "token": "stream-RadioPatito",
-    "url": 'AQUI VA LA URL DE TU STREAM -PLS,MP3,M3U,HLS sobre HTTPS',
+  { 
+    "url": 'https://sonic.sistemahost.es:7041/index.html?sid=1'
     "metadata" : {
-      "title": "Radio Patito",
-      "subtitle": "Oliver González",
+      "title": "Radio_La_garra_del_Tigrin",
+      "subtitle": "ALfredoVazmart",
       "art": {
         "sources": [
           {
-            "contentDescription": "Radio Patito",
+            "contentDescription": "Radio La Garra del Tigrin",
             "url": "http://placehold.it/512x512",
             "widthPixels": 512,
             "heightPixels": 512
